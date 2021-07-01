@@ -1,0 +1,183 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.3.2f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/k-now/Documents/GitHub/Event-based-3D-Reconstruction/object_record
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+49368
+Successfully changed project path to: /Users/k-now/Documents/GitHub/Event-based-3D-Reconstruction/object_record
+/Users/k-now/Documents/GitHub/Event-based-3D-Reconstruction/object_record
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 25.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.2f1 (8fd9074bf66c)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.2f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/k-now/Documents/GitHub/Event-based-3D-Reconstruction/object_record/Assets
+GfxDevice: creating device client; threaded=0
+2021-05-22 23:17:24.604 Unity[1220:15130] (null) preferred device: Apple M1 (high power)
+2021-05-22 23:17:24.604 Unity[1220:15130] Metal devices available: 1
+2021-05-22 23:17:24.604 Unity[1220:15130] 0: Apple M1 (high power)
+2021-05-22 23:17:24.604 Unity[1220:15130] Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.2f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.2f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.2f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56220
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.2f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.002343 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 24.28 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.005 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000650 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.24 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.629 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.2f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.26 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1263 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 115.1 MB.
+System memory in use after: 115.1 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1699.
+Total: 1.805083 ms (FindLiveObjects: 0.126542 ms CreateObjectMapping: 0.026416 ms MarkObjects: 1.580875 ms  DeleteObjects: 0.070625 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scenes/tmpsaveroot/ob_45.mp4
+  artifactKey: Guid(fba6c34c2d4fe48df881ba4cd06827ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/tmpsaveroot/ob_45.mp4 using Guid(fba6c34c2d4fe48df881ba4cd06827ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26520cc42ebbc02a17838a770cbbd8d2') in 0.175897 seconds
+  Import took 0.179163 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Scenes/tmpsaveroot/00054057_45.mp4
+  artifactKey: Guid(fd21af26c7c0d4dc799963c4496e743d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/tmpsaveroot/00054057_45.mp4 using Guid(fd21af26c7c0d4dc799963c4496e743d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f712111771c425a3e9f44de1a2aad498') in 0.002644 seconds
+  Import took 0.003946 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Scenes/tmpsaveroot/00057691_60.mp4
+  artifactKey: Guid(50bcda6e6a0064df68bbfb685d12609e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/tmpsaveroot/00057691_60.mp4 using Guid(50bcda6e6a0064df68bbfb685d12609e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0542cd8f33004eec8c97d4ac654f9f62') in 0.002180 seconds
+  Import took 0.004054 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Scenes/tmpsaveroot/00057691_30.mp4
+  artifactKey: Guid(362f91d1adfbb49dfabe852d67d8ce10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/tmpsaveroot/00057691_30.mp4 using Guid(362f91d1adfbb49dfabe852d67d8ce10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1aa99ad1b2c5eaf4b886b8d9bc71ebd') in 0.002127 seconds
+  Import took 0.003890 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Scenes/tmpsaveroot
+  artifactKey: Guid(5dd5a68e113b241069129ffddb821d5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/tmpsaveroot using Guid(5dd5a68e113b241069129ffddb821d5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95a04a36dde15bab8ba822f4bafdcc8e') in 0.000564 seconds
+  Import took 0.002123 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Scenes/tmpsaveroot/ob2_60.mp4
+  artifactKey: Guid(f2c20d43d132a46bb8103b6a322dc99b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/tmpsaveroot/ob2_60.mp4 using Guid(f2c20d43d132a46bb8103b6a322dc99b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ea24089ff804b8caff17dbc2aa1046c') in 0.002048 seconds
+  Import took 0.003871 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Scenes/tmpsaveroot/ob2_30.mp4
+  artifactKey: Guid(238e731a7a86a4d05b8f7b8d8c91d3f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/tmpsaveroot/ob2_30.mp4 using Guid(238e731a7a86a4d05b8f7b8d8c91d3f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0186496b3c84092b1831eae2215b401') in 0.002596 seconds
+  Import took 0.006061 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Scenes/tmpsaveroot/00054057_60.mp4
+  artifactKey: Guid(fa92c610bee24465292948aff11f7bfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/tmpsaveroot/00054057_60.mp4 using Guid(fa92c610bee24465292948aff11f7bfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24b45f9d00306c2b2158a6f0591a0d72') in 0.002334 seconds
+  Import took 0.004542 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Scenes/tmpsaveroot/ob2_45.mp4
+  artifactKey: Guid(a79ad355f7ecc4ec4a4c770dfe2eaf0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/tmpsaveroot/ob2_45.mp4 using Guid(a79ad355f7ecc4ec4a4c770dfe2eaf0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f3268f92840863c5671c2114d076c94') in 0.002322 seconds
+  Import took 0.005069 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/Scenes/tmpsaveroot/00054057_30.mp4
+  artifactKey: Guid(a0abdec0e3c9a4548afcae6e39ef4d3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/tmpsaveroot/00054057_30.mp4 using Guid(a0abdec0e3c9a4548afcae6e39ef4d3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '834e4d43e38ae5ac5f5d0abb429e9e3e') in 0.001973 seconds
+  Import took 0.003992 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Scenes/tmpsaveroot/ob_30.mp4
+  artifactKey: Guid(671f189eec1d947f9a06d21dcb6ef548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/tmpsaveroot/ob_30.mp4 using Guid(671f189eec1d947f9a06d21dcb6ef548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dc070d47b4e44cf5d63e14cf91c1967') in 0.001938 seconds
+  Import took 0.003564 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Scenes/tmpsaveroot/ob_60.mp4
+  artifactKey: Guid(3ad5a2977afb54b82b2ce781b5702a6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/tmpsaveroot/ob_60.mp4 using Guid(3ad5a2977afb54b82b2ce781b5702a6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9bbc60ca17369eade681a29f8460346') in 0.001878 seconds
+  Import took 0.003392 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Scenes/tmpsaveroot/00057691_45.mp4
+  artifactKey: Guid(a653d6ee83f1e47adaa4e99d53a5b3c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/tmpsaveroot/00057691_45.mp4 using Guid(a653d6ee83f1e47adaa4e99d53a5b3c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcf1f322f49175f6c9084c9afc077d09') in 0.002028 seconds
+  Import took 0.004185 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.351067 seconds.
+  path: Assets/Scenes/fourtyfive.cs
+  artifactKey: Guid(df9e9084bc601428999df4f45286deba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/fourtyfive.cs using Guid(df9e9084bc601428999df4f45286deba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd8007cb1c47999251dff016afba2d77') in 0.326017 seconds
+  Import took 0.328969 seconds .
+
