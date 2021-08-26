@@ -1,3 +1,4 @@
+# KETI
 - [1장 Datasets 생성](#1--datasets---)
 - [2장 Camera_trajectory 생성](#2--camera-trajectory---)
 - [3장 nerf 환경 설정](#3--nerf------)
@@ -128,4 +129,14 @@ for i in range(0, VIEWS):
 │   └── exp5_transforms_test.json
 └── transforms_json_maker.ipynb
 ```
+- transforms_json_maker.ipynb를 통해 test에 사용된 Camera 정보들을 모아 json 파일로 생성해 줍니다.
+- 각 object 폴더내의 compare.ipynb를 통해 정량적 평가 및 결과 시각화를 진행합니다.
+- 사용되는 정량적 지표는 다음과 같습니다
+    - MSE
+    - MAE
+    - RMSE
+    - PSNR
+    - SSIM
+- GT와 Estimation의 시각화는 가로 5, 세로 8의 이미지 배열로 다음과 같이 나타납니다
+![4_1](./docs_img/4_1.png)  
 ---
