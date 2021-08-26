@@ -72,7 +72,7 @@ for i in range(0, VIEWS):
 │   └── text
 └── utility.py
 ```
-- ct 폴더 내에 Cameara transform 데이터를 배치
+- ct 폴더 내에 Cameara transform 데이터를 배치합니다.
 ```Bash
 ./camera_trajectory/ct/benz
 ├── exp1_transforms_test.json
@@ -83,10 +83,25 @@ for i in range(0, VIEWS):
 ├── exp4_transforms_test.json
 └── exp5_transforms_test.json
 ```
-- camera_pose_visualization을 통해 Camera_trajectory 시각화
+- camera_pose_visualization을 통해 Camera_trajectory 시각화 합니다.  
 ![2_1](./docs_img/2_1.png)  
 ---
 ## 3장 nerf 환경 설정
+```Bash
+./nerf-master/config
+├── config_benz_exp1.txt
+├── config_benz_exp1_renderONLY.txt
+├── config_benz_exp2.txt
+├── config_benz_exp2_renderONLY.txt
+...
+...
+├── config_text_exp4_renderONLY.txt
+├── config_text_exp5.txt
+└── config_text_exp5_renderONLY.txt
+```
+- 각 experiment별 config는 ./nerf-master/config에 있습니다.
+- run_nerf.py 실행시 --config args를 추가하여 config를 적용할 수 있습니다.
+
 ---
 ## 4장 결과 비교 및 정량적 평가
 ```Bash
